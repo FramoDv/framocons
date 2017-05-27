@@ -1,0 +1,97 @@
+#framo {
+    font-size: 0.9em !important;
+    display: inline;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 2em;
+    text-align: left;
+}
+
+p {
+    width: 90%;
+    font-weight: 300;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+code {
+    overflow: auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    background: #fcfcfc;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    h3 {
+        font-size: 1.6em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+}
+
+button , button:checked {
+    height: 45px;
+    width: 60px;
+    border: 2px solid #212121 !important;
+    box-sizing: border-box;
+    background-color: transparent !important;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    border: 2px solid #fff;
+    background-color: #212121 !important;
+}
+
+button i {
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+button i:hover{
+    color: #fff;
+}
+
+span{
+    font-weight: 500;
+}
+
+#show{
+    margin-bottom: 20px !important;
+}
+
+h6{
+    font-size: 11px;
+    text-align: center;
+    margin: 6px 0px 12px 0px;
+}
+
+.page-footer{
+    background-color: #212121 !important;
+}
+
+.footer-copyright{
+    background-color: #121212 !important;
+}
+
+footer p{
+    font-weight: 100;
+}
+
+h5 .icon{
+    color: #fff;
+}
